@@ -1,0 +1,140 @@
+input,
+select {
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  padding: 2px;
+  margin-left: 5px;
+}
+
+select {
+  min-width: 200px;
+}
+label {
+  font-size: 12px;
+  color: #fff;
+}
+button {
+  background-color: rgba(50, 40, 139, 0.842);
+  color: #fff;
+  padding: 10px;
+  margin: 5px;
+  border: 1px transparent;
+  border-radius: 5px;
+  min-width: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+  button {
+    background-color: black;
+  }
+}
+
+.out-dive-expense {
+  background-color: #000;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.expense-form {
+  background-color: rgb(179, 145, 207);
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.filter-select {
+  float: right;
+  background-color: rgba(50, 40, 139, 0.842);
+  color: #fff;
+}
+.expence-list {
+  margin-top: 20px;
+}
+.expence-list > div {
+  border: 1px solid #000;
+  padding: 0 10px 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: rgb(66, 65, 65);
+  color: #fff;
+}
+.expense-item {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.expense-item .date-div {
+  float: left;
+  width: 50px;
+  border: solid 1px #fff;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgb(46, 45, 45);
+}
+
+.expense-item button {
+  float: right;
+  border: solid 1px #fff;
+}
+.expense-item h2 {
+  float: left;
+  margin-left: 10px;
+}
+.form-style {
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+}
+.form-style > div {
+  margin-top: 5px;
+}
+
+.chart-item {
+  background-color: rgb(201, 174, 209);
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px 0 10px 0;
+  display: flex;
+  height: 130px;
+  width: 100%;
+}
+
+.chart-item > div {
+  margin: 0 9px 0 9px;
+}
+
+.chart-item .chart-inner {
+  width: 10px;
+  min-height: 100px;
+  background-color: rgb(118, 84, 141);
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.chart-item label {
+  color: #000f;
+  font-size: 10px;
+}
+
+.chart-item .chart-inner .chart-fill {
+  background-color: rgb(73, 7, 150);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 50%;
+}
+
+.form-control.invalid lable {
+  color: red;
+}
+.form-control.invalid input {
+  border-color: red;
+  background-color: rgb(245, 157, 157);
+}

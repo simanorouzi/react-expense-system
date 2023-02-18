@@ -1,0 +1,27 @@
+input,
+select {
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  padding: 2px;
+  margin-left: 5px;
+}
+
+select {
+  min-width: 200px;
+}
+label {
+  font-size: 12px;
+  color: #fff;
+}
+button {
+  background-color: rgba(240, 21, 6, 0.842);
+  color: #fff;
+  padding: 10px;
+  margin: 5px;
+  border: 1px transparent;
+  border-radius: 5px;
+  min-width: 50px;
+}
+input.invalid {
+  border-color: red;
+}

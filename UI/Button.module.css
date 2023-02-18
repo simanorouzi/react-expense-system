@@ -1,0 +1,20 @@
+.bbutton {
+  background-color: rgba(107, 6, 240, 0.842);
+  color: #fff;
+  padding: 10px;
+  margin: 5px;
+  border: 1px transparent;
+  border-radius: 5px;
+  min-width: 50px;
+  width: 50%;
+}
+
+.bbutton:hover {
+  background-color: rgba(155, 144, 247, 0.842);
+}
+
+@media (min-width: 768px) {
+  .bbutton {
+    width: 100%;
+  }
+}
